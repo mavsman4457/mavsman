@@ -34,6 +34,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
+		echo $this->Html->script('angular/angular.min');
+
 		echo $this->fetch('script');
 	?>
 </head>
