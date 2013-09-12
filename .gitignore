@@ -1,0 +1,19 @@
+# Ignore private folder
+/app/private/*
+!/app/private/empty
+ 
+# Ignore packed asset files
+/app/webroot/css/packed/*
+!app/webroot/css/packed/.htaccess
+/app/webroot/js/packed/*
+!app/webroot/js/packed/.htaccess
+ 
+# MAC
+.DS_Store
+ 
+# Windows
+Thumbs.db
+
+# Cake TMP Dirs
+/app/tmp/*
+!/app/tmp/
