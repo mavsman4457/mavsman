@@ -1,0 +1,40 @@
+# Ignore private folder
+/app/private/*
+!/app/private/empty
+ 
+# Ignore packed asset files
+/app/webroot/css/packed/*
+!app/webroot/css/packed/.htaccess
+/app/webroot/js/packed/*
+!app/webroot/js/packed/.htaccess
+ 
+# MAC
+.DS_Store
+ 
+# Windows
+Thumbs.db
+
+# Cake TMP Dirs
+/app/tmp/*
+!/app/tmp/
+
+# User specific & automatically generated files #
+#################################################
+/app/Config/database.php
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/vendors
+/plugins
+/build
+/dist
+/tags
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
